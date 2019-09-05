@@ -112,12 +112,12 @@ for i in range(0,length):
         
 
 
-mailToAdress = "swamy_latha@yahoo.com"
+mailToAdress = "macintushar@gmail.com"
 mailFromServer = "smtp.gmail.com:587"   
 mailFromAdress = "emailbycode@gmail.com"
 mailFromPassword = "EmailCode123"
 
-body =(name, address, city, pincode, order)
+body =(name, address, city, pincode)
 subject = "HELLO!"
 
 msg = MIMEMultipart()
